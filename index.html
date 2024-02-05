@@ -16,7 +16,7 @@
             padding: 0px;
         }
          body {
-            background-color: black;
+            background-image: linear-gradient(180deg, gray, black);
             font-family: var(--fonte-padrao);
         }
 
@@ -26,9 +26,9 @@
             min-width: 250px;
             border: solid 10px lightseagreen;
             border-radius: 20px;
-            margin: 10px auto;
+            margin: 20px auto;
             text-align: justify;
-            box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+            box-shadow: 0px 0px 10px 0px white;
         }
 
         main > h1 {
@@ -48,12 +48,16 @@
             
         }
 
-        main > img {
+        main > .fotoPrincipal {
             padding: 0px;
             border-radius: 100px;
             display: block;
             margin: auto;
-            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+            box-shadow: 0px 0px 10px 0px black;
+        }
+
+        main img {
+        
         }
 
         main > nav h3 {
@@ -88,18 +92,18 @@
 
         <h2>Quem sou eu?</h2>
 
-        <img src="imagens/minha-foto-pp.png" alt="">
+        <img src="imagens/minha-foto-pp.png" class="fotoPrincipal" alt="">
 
         <p>Meu nome é <strong>Matheus Jardilino de Luna</strong>, e nasci em 1999. Sou estudante de programação, e alguém que acredita que através da tecnologia podemos mudar o rumo de nossas vidas.</p>
         <nav>
             <h3>Minhas redes sociais:</h3>
     
             <ul>
-                <li><a href="https://github.com/jardluna" target="_blank">Acesse meu repositório no <strong>GitHub</strong></a></li>
+                <li><a href="https://github.com/jardluna" target="_blank">Acesse meu repositório no <strong>GitHub</strong>&nbsp;&nbsp;<img src="imagens/github-pp.png" alt=""></a></li>
     
-                <li><a href="https://www.instagram.com/mathlunna/" target="_blank">Acesse meu <strong>Instagram</strong></a></li>
+                <li><a href="https://www.instagram.com/mathlunna/" target="_blank">Acesse meu <strong>Instagram</strong>&nbsp;&nbsp;<img src="imagens/instagram-pp.png" alt=""></a></li>
     
-                <li><a href="#" target="_blank">Acesse meu <strong>LinkedIn</strong></a></li>
+                <li><a href="#" target="_blank">Acesse meu <strong>LinkedIn</strong>&nbsp;&nbsp;<img src="imagens/linkedin-pp.png" alt=""></a></li>
             </ul>
         </nav>
     </main>
