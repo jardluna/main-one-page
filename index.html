@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
+    <title>Meu Perfil</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
@@ -20,22 +20,26 @@
             font-family: var(--fonte-padrao);
         }
 
+        header {
+            background-color: lightseagreen;
+            text-align: center;
+            padding: 5px;
+            font-size: 1.2em;
+            border-bottom-left-radius: 110px;
+            border-bottom-right-radius: 110px;
+            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+        }
+
         main {
             background-color: white;
             max-width: 500px;
             min-width: 250px;
-            border: solid 10px lightseagreen;
-            border-radius: 20px;
-            margin: 20px auto;
+            border-right: solid 10px  lightseagreen;
+            border-bottom: solid 10px  lightseagreen;
+            border-left: solid 10px  lightseagreen;
+            border-radius: 0px 0px 20px 20px;
+            margin: auto;
             text-align: justify;
-            box-shadow: 0px 0px 10px 0px white;
-        }
-
-        main > h1 {
-            padding: 10px;
-            margin: 10px;
-            text-align: center;
-            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
         }
 
         main > h2 {
@@ -83,22 +87,18 @@
     </style>
 </head>
 <body>
-    <main>
+    <header>
         <h1>Meu Perfil</h1>
-
+    </header>
+    <main>
         <h2>Quem sou eu?</h2>
-
         <img src="imagens/minha-foto-pp.png" class="fotoPrincipal" alt="">
-
         <p>Meu nome é <strong>Matheus Jardilino de Luna</strong>, e nasci em 1999. Sou estudante de programação, e alguém que acredita que através da tecnologia podemos mudar o rumo de nossas vidas.</p>
         <nav>
             <h3>Minhas redes sociais:</h3>
-    
             <ul>
                 <li><a href="https://github.com/jardluna" target="_blank">Acesse meu repositório no <strong>GitHub</strong>&nbsp;&nbsp;<img src="imagens/github-pp.png" alt=""></a></li>
-    
                 <li><a href="https://www.instagram.com/mathlunna/" target="_blank">Acesse meu <strong>Instagram</strong>&nbsp;&nbsp;<img src="imagens/instagram-pp.png" alt=""></a></li>
-    
                 <li><a href="#" target="_blank">Acesse meu <strong>LinkedIn</strong>&nbsp;&nbsp;<img src="imagens/linkedin-pp.png" alt=""></a></li>
             </ul>
         </nav>
