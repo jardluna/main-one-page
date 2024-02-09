@@ -3,101 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Meu Perfil</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-        :root {
-            --fonte-padrao: 'Roboto', sans-serif;
-        }
-
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
-        body {
-            background-color: black;
-            font-family: var(--fonte-padrao);
-        }
-
-        header {
-            background-color: lightseagreen;
-            text-align: center;
-            padding: 5px;
-            border-radius: 110px;
-            text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-        }
-
-        main {
-            background-color: white;
-            max-width: 500px;
-            min-width: 250px;
-            border: solid 10px  lightseagreen;
-            border-radius: 20px;
-            margin: 10px auto 0px auto;
-            text-align: justify;
-        }
-
-        main > h2 {
-            padding: 10px;
-            text-align: center;
-        }
-
-        main > p {
-            padding: 10px;
-            
-        }
-
-        main > .fotoPrincipal {
-            padding: 0px;
-            border-radius: 100px;
-            display: block;
-            margin: auto;
-            box-shadow: 0px 0px 10px 0px black;
-        }
-
-        main > nav h3 {
-            padding: 2px 10px 2px 10px;
-            margin-left: 10px;
-            background-image: linear-gradient(90deg, lightseagreen, white 60%);
-            border-radius: 20px 0px 0px 20px;
-        }
-
-        main > nav ul {
-            padding: 10px;
-            list-style-position: inside;
-            list-style-type: '\2714\00A0\00A0';
-        }
-
-        main > nav a {
-            text-decoration: none;
-            line-height: 2em;
-            color: black;
-        }
-
-        main > nav a:hover {
-            background-image: linear-gradient(90deg, lightseagreen 60%, white);
-            padding: 5px;
-            border-radius: 15px;
-        }
-    </style>
 </head>
 <body>
-    <header>
-        <h1>Meu Perfil</h1>
-    </header>
     <main>
+        <h1>Meu Perfil</h1>
+
         <h2>Quem sou eu?</h2>
-        <img src="imagens/minha-foto-pp.png" class="fotoPrincipal" alt="">
+
+        <img src="imagens/minha-foto.png" class="fotoPrincipal" alt="">
+
         <p>Meu nome é <strong>Matheus Jardilino de Luna</strong>, e nasci em 1999. Sou estudante de programação, e alguém que acredita que através da tecnologia podemos mudar o rumo de nossas vidas.</p>
-        <nav>
-            <h3>Minhas redes sociais:</h3>
-            <ul>
-                <li><a href="https://github.com/jardluna" target="_blank">Acesse meu repositório no <strong>GitHub</strong>&nbsp;&nbsp;<img src="imagens/github-pp.png" alt=""></a></li>
-                <li><a href="https://www.instagram.com/mathlunna/" target="_blank">Acesse meu <strong>Instagram</strong>&nbsp;&nbsp;<img src="imagens/instagram-pp.png" alt=""></a></li>
-                <li><a href="#" target="_blank">Acesse meu <strong>LinkedIn</strong>&nbsp;&nbsp;<img src="imagens/linkedin-pp.png" alt=""></a></li>
-            </ul>
-        </nav>
+
+        <h3>Minhas Redes Socias:</h3>
     </main>
+    <div class="github">
+        <h3>Acesse meu repositório no <strong>GitHub:</strong></h3>
+        <a href="https://github.com/jardluna" target="_blank">Clique aqui <img src="imagens/github-pp.png" alt=""></a>
+    </div>
+    <div class="instagram">
+        <h3>Acesse meu <strong>Instagram:</strong></h3>
+        <a href="#" target="_blank">Clique aqui <img src="imagens/instagram-pp.png" alt=""></a>
+    </div>
+    <div class="linkedin">
+        <h3>Acesse meu <strong>LinkedIn:</strong></h3>
+        <a href="#" target="_blank">Clique aqui <img src="imagens/linkedin-pp.png" alt=""></a>
+    </div>
 </body>
 </html>
